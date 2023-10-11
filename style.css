@@ -1,0 +1,39 @@
+:root {
+    --primary-blue: #083b4c;
+    --secondary-turquoise: #1389b2;
+    --secondary-green: #0cd6a1;
+    --secondary-yellow: #ffd166;
+    --secondary-pink: #f0466f;
+}
+
+
+.bg-blue {
+    background-color: var(--primary-blue);
+}
+
+
+#box-wrapper {
+    width: 500px;
+    height: 500px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+}
+
+.azure {
+    background-color: var(--secondary-turquoise);
+}
+
+.green {
+    background-color: var(--secondary-green);
+}
+
+.yellow {
+    background-color: var(--secondary-yellow);
+}
+
+.pink {
+    background-color: var(--secondary-pink);
+}
