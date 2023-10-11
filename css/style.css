@@ -4,13 +4,17 @@
     --secondary-green: #0cd6a1;
     --secondary-yellow: #ffd166;
     --secondary-pink: #f0466f;
+    font-family: 'Sen', sans-serif !important;
 }
 
+* {
+    font-weight: 800 !important;
+    color: rgb(255, 248, 248);
+}
 
 .bg-my-blue {
     background-color: var(--primary-blue);
 }
-
 
 #box-wrapper {
     width: 500px;
@@ -37,4 +41,9 @@
 
 .pink {
     background-color: var(--secondary-pink);
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s;
 }
